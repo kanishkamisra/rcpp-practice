@@ -22,3 +22,6 @@ NumericVector rowSumsSquared(MappedSpMat sparse_matrix) {
 
 	return(out);
 }
+
+// [[Rcpp::export]]
+NumericVector rowMax()
